@@ -21,3 +21,7 @@ Seartch del. (borde inte ta mycket tid)
 Full productlista och personlig productlista.
 Css.
 MJALK
+
+
+
+HÄR KAN MAN ÄNDRA
