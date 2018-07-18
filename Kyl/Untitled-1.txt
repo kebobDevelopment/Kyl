@@ -1,0 +1,23 @@
+getLista: 1 
+addProduikt: 2
+removeProduktern: 3
+söökNågotiFramtiden: 4
+
+
+Json test24   {{{}}} prodokol: 1,{pro:test,namn: mjalk}}][][)()()]'
+''''
+
+
+
+
+Sök sedan kevin ka inget
+javaS colonsemi
+skrubb
+
+
+
+Ser Product listan i webbläsaren.
+Seartch del. (borde inte ta mycket tid)
+Full productlista och personlig productlista.
+Css.
+MJALK
