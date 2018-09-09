@@ -14,7 +14,7 @@ const words = [
 newWord();
 console.log("The first word is " + phrase)
 
-function myFunction() {
+function inputChange() {
     
     let player_input = document.getElementById('player-input').value
 
@@ -32,29 +32,29 @@ function myFunction() {
                  console.log("I'm in the part of the if that marks an error" )
             }
 
-            //looks if completed
-            else if(player_input === phrase) {
-                document.getElementsByClassName('gratulation').innerHTML = "Good jobb, " + phrase +  " was typed correctly!"
-
-                newWord()
-            }
-            
-            //if not completed but correct
-            else {
-                typo = false
-                document.getElementById('player-input').style.color = "black"
-            }
-
             console.log(player_input[i] + typo)
             i++
         }   
+
+          //looks if completed
+        if(player_input === phrase) {
+            document.getElementById('gratulation').innerHTML = "Good jobb, " + phrase +  " was typed correctly!"
+
+            newWord()
+        }
+        
+        //if not completed but correct
+        else {
+            document.getElementById('player-input').style.color = "black"
+        }
     }
+
 }
 
 function newWord() {
 
     phrase = words[Math.floor((Math.random() * words.length))]
 
-    document.getElementsByClassName('phrase').innerHTML = phrase
+    document.getElementById('phrase').innerHTML = phrase
 
 }

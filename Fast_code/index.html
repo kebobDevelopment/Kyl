@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fast Code</title>
-        <script src="./js/init.js"></script>
+        <title>Fast Code</title>      
     </head>
 
     <body>
         <section id="game-area">
             <div class="input-area" style="position:fixed; bottom:50px; right:45%">
-                <h1 class="gratulation"></h1>
-                <h4 class="phrase"></h4>
-                <input id="player-input" style="position:fixed; bottom:50px; right:45%" oninput="myFunction();"/>
+                <h1 id="gratulation"></h1>
+                <h4 id="phrase"></h4>
+                <input id="player-input" style="position:fixed; bottom:50px; right:45%" oninput="inputChange();"/>
             </div>
         </section>
+
+        <footer>
+            <script src="./js/init.js"></script>
+
+        </footer>
     </body>
 
 </html>
