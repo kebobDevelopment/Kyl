@@ -1,0 +1,15 @@
+#game-area {
+    width: 1000px;
+    margin: auto;
+    background-color: #eee;
+}
+
+#gratulation {
+    position: relative;
+    top: 10px;
+    left: 50%;
+}
+
+.phrase {
+    position: relative;
+}

@@ -57,6 +57,8 @@ function newWord() {
 
     phrase = words[Math.floor((Math.random() * words.length))]
 
-    document.getElementById('phrase').innerHTML = phrase
+    
 
 }
+
+

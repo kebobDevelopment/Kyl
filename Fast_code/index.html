@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Fast Code</title>      
     </head>
 
@@ -8,7 +9,7 @@
         <section id="game-area">
             <div id="word-field">
                 <h1 id="gratulation"></h1>
-                <h4 id="phrase"></h4>
+                <h4 class="phrase"></h4>
             </div>
             <div class="input-area" style="position:fixed; bottom:50px; right:45%">
                 <input id="player-input" style="position:fixed; bottom:50px; right:45%" oninput="inputChange();"/>
@@ -17,6 +18,7 @@
 
         <footer>
             <script src="./js/init.js"></script>
+            <script src="./js/game-loop.js"></script>
 
         </footer>
     </body>
