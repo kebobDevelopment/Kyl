@@ -2,7 +2,9 @@
     width: 1000px;
     margin: auto;
     background-color: #eee;
+    position: relative;
 }
+
 
 #gratulation {
     position: relative;
@@ -11,5 +13,7 @@
 }
 
 .phrase {
-    position: relative;
+    position: absolute;
+    display: inline;
+    margin: 10px 5px;
 }
