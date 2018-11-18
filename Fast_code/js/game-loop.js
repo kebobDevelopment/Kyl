@@ -5,12 +5,8 @@
 newWord()
 
 
-function draw() {
-    drawWords()
-    console.log( 'intervall test' )
-}
 
-setInterval( draw, 32 )
+//setInterval( something, 32 )
 
 function inputChange() {
 

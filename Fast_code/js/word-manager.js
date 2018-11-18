@@ -15,12 +15,6 @@ function newWord() {
     let phrase = wordLibrary[Math.floor((Math.random() * wordLibrary.length))]
     words.push(new Word(phrase))
     console.log("The new word is " + phrase)
+    return phrase
 }
 
-function drawWords() {
-    words.forEach(element => {
-        element.draw()
-        
-    });
-
-}
